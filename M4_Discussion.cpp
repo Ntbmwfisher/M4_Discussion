@@ -42,7 +42,7 @@ int main() {
 		//  stoi is used to change string into a integer
 		number = stoi(input);
 		sum = sum + number;
-		i---;
+		i--;
 	}
 	//  Outputs the sum of the input numbers
 	cout << "\n\n  The sum of the numbers entered is: " << sum;
