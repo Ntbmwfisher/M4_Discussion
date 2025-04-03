@@ -4,7 +4,7 @@
 *Data: 04/03/2025
 */
 
-//  include <iostream> is used for inputs and outputs and <conio.h> is used for a press any key function _getch() 
+//  include <iostream> is used for inputs and outputs and <conio.h> is used for a press any key function _getch(), <string> is used for string variables 
 #include <iostream>
 #include <conio.h>
 #include <string>
@@ -13,8 +13,8 @@
 using namespace std;
 
 //  ------------------------------------------------------------------------------------
-//  This program uses while and if loops to add integers for the customer
-//  There are a total of three errors in the program
+//  This program uses while and if loops to add integers for the customer.
+//  There are a total of three errors in the program.
 //  ------------------------------------------------------------------------------------
 int main() {
 	string name, input;
@@ -22,12 +22,13 @@ int main() {
 	cout << "\n\n  Welcome to my program";
 	cout << " \n  ---------------------";
 	cout << "\n\n  What is your name?";
-	//  getline is used incase a name has a space.  This solves if a person enters a full name.
+	//  getline is used incase a name has a space character.  This resolves issues if a person enters a
+	//  their full name.
 	getline(cin, name);
 	cout << "\n  " << name << ", I can help add integer numbers for you.\n";
 	//  i is used for a counter in the while loop.
 	i = 0;
-	//  while loop to continue until user enters and x
+	//  while loop to continue until user enters an x
 	while (i >= 5) {
 		sum = 0;
 		cout << "  Enter a number or press x to see the sum: ";
